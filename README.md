@@ -1,0 +1,1 @@
+# 2022_django_tikasz_homework
