@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def fpage(request):
-    return HttpResponse('<h1> Page home valami </h1>')
+    return render(request, 'tpage/first.html')
 
 def secpage(request):
-    return HttpResponse('<h1> Egyeb oldal </h1>')
+    return render(request, 'tpage/secpage.html')
