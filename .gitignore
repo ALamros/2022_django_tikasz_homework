@@ -2,3 +2,4 @@ twenv
 test_page/test_page/__pycache__/
 test_page/tpage/__pycache__/
 test_page/tpage/migrations/__pycache__/
+test_page/db.sqlite3
