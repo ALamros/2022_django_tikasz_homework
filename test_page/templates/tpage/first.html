@@ -1,1 +1,11 @@
-<h1>First page</h1>
+{% extends 'tpage/base.html' %}
+{% block content %}
+    
+    {% for post in posts %}
+        <h2>{{ post.author }}</h2>
+        <h3>{{ post.title }} <small>{{ post.date_posted }}</small></h3>
+        <h3>{{ post.content }}</h3>
+    {% endfor %}
+
+
+{% endblock content %}
